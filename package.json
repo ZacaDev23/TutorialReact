@@ -32,7 +32,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token=9e3279497433",
+    "chromatic": "npx chromatic --exit-zero-on-changes --project-token=9e3279497433",
     "lint": "eslint src/**/*.js",
     "svg": "svgr --icon --replace-attr-values '#6C63FF=currentColor' -d src/draws/"
   },

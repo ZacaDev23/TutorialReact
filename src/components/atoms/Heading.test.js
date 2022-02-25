@@ -18,5 +18,7 @@ test("match snapshot with strong", () => {
     </Heading>
   );
 
+  // Expects
+
   expect(asFragment()).toMatchSnapshot();
 });
